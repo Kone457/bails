@@ -1,3 +1,4 @@
+
 {
   "name": "Carlos",
   "version": "25.9.1",
@@ -11,7 +12,7 @@
     "url": "https://github.com/Kone457/baileys"
   },
   "license": "MIT",
-  "author": "JoseXrl15k",
+  "author": "Carlos",
   "main": "lib/index.js",
   "files": [
     "lib/*",
@@ -23,12 +24,16 @@
     "preinstall": "node ./engine-requirements.js"
   },
   "dependencies": {
+    "@adiwajshing/keyed-db": "^0.2.4",
     "@cacheable/node-cache": "^1.5.5",
     "@hapi/boom": "^10.0.1",
     "async-mutex": "^0.5.0",
     "audio-decode": "^2.2.2",
     "axios": "^1.9.0",
     "cache-manager": "^6.4.3",
+    "cheerio": "^1.2.0",
+    "file-type": "^21.3.4",
+    "form-data": "^4.0.5",
     "jimp": "^1.6.0",
     "libsignal": "npm:@meta.inc/libsignal",
     "link-preview-js": "^3.0.15",
