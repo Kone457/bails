@@ -1,7 +1,7 @@
 {
-  "name": "BaileysBot",
+  "name": "Baileys",
   "version": "1.0.0",
-  "description": "Bot de WhatsApp con Baileys y libsignal",
+  "description": "Baileys modificada",
   "main": "lib/index.js",
   "author": "Carlos",
   "license": "MIT",
