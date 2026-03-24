@@ -1,27 +1,12 @@
-
 {
-  "name": "Baileys",
-  "version": "10.3",
-  "description": "baileys whatsapp-api",
-  "keywords": [
-    "whatsapp",
-    "baileys"
-  ],
-  "homepage": "https://github.com/Kone457/baileys",
-  "repository": {
-    "url": "https://github.com/Kone457/baileys"
-  },
-  "license": "MIT",
-  "author": "Carlos",
+  "name": "BaileysBot",
+  "version": "1.0.0",
+  "description": "Bot de WhatsApp con Baileys y libsignal",
   "main": "lib/index.js",
-  "files": [
-    "lib/*",
-    "WAProto/*",
-    "WASignalGroup/*.js",
-    "engine-requirements.js"
-  ],
+  "author": "Carlos",
+  "license": "MIT",
   "scripts": {
-    "preinstall": "node ./engine-requirements.js"
+    "start": "node lib/index.js"
   },
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
@@ -44,13 +29,10 @@
     "protobufjs": "^7.5.2",
     "qrcode-terminal": "^0.12.0",
     "sharp": "^0.34.1",
-    "ws": "^8.18.2"
+    "ws": "^8.18.2",
+    "@whiskeysockets/baileys": "^6.7.0"
   },
   "engines": {
     "node": ">=20.0.0"
-  },
-  "directories": {
-    "lib": "lib"
-  },
-  "packageManager": "pnpm@10.11.0+sha512.6540583f41cc5f628eb3d9773ecee802f4f9ef9923cc45b69890fb47991d4b092964694ec3a4f738a420c918a333062c8b925d312f42e4f0c263eb603551f977"
+  }
 }
